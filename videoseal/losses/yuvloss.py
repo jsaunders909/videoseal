@@ -6,7 +6,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from videoseal.data.transforms import rgb_to_yuv
+from ..data.transforms import rgb_to_yuv
 
 
 class YUVLoss(nn.Module):

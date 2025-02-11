@@ -5,10 +5,10 @@
 
 import torch
 from torch import nn
-from videoseal.modules.convnext import ConvNeXtV2
-from videoseal.modules.hidden import HiddenDecoder
-from videoseal.modules.pixel_decoder import PixelDecoder
-from videoseal.modules.vit import ImageEncoderViT
+from ..modules.convnext import ConvNeXtV2
+from ..modules.hidden import HiddenDecoder
+from ..modules.pixel_decoder import PixelDecoder
+from ..modules.vit import ImageEncoderViT
 
 
 class Extractor(nn.Module):

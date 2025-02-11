@@ -14,10 +14,10 @@ import torch
 import torchvision.transforms as transforms
 from omegaconf import DictConfig, OmegaConf
 
-from videoseal.augmentation.augmenter import get_dummy_augmenter
-from videoseal.data.datasets import CocoImageIDWrapper, ImageFolder, VideoDataset
-from videoseal.models import Videoseal, build_embedder, build_extractor, build_baseline
-from videoseal.modules.jnd import JND
+from ..augmentation.augmenter import get_dummy_augmenter
+from ..data.datasets import CocoImageIDWrapper, ImageFolder, VideoDataset
+from ..models import Videoseal, build_embedder, build_extractor, build_baseline
+from ..modules.jnd import JND
 
 omegaconf.OmegaConf.register_new_resolver("mul", lambda x, y: x * y)
 omegaconf.OmegaConf.register_new_resolver("add", lambda x, y: x + y)

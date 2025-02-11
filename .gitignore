@@ -15,3 +15,4 @@ fb_notebooks/*
 */fb_demo/*
 # Track videos in test directories
 !**/tests/**/*.mp4
+outputs_attacked/
